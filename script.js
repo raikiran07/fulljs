@@ -37,11 +37,13 @@ new fullpage('#fullpage', {
 
 		if(destination.index===1){
 			const text = document.querySelector(".about-text");
-			tl.fromTo(text,0.4,{x:-100,opacity:0},{x:0,opacity:1})
+			tl.fromTo(text,0.,{x:-100,opacity:0},{x:0,opacity:1})
 		}
 
 	}
 });
+
+
 
 
 //script for typo js 
