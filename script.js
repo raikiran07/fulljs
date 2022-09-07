@@ -14,7 +14,7 @@ new fullpage('#fullpage', {
 	sectionsColor : ['#6919ff', '#0f1922',"#6919ff","#0f1922","#0f1922"],
 	paddingTop: '3em',
 	paddingBottom: '10px',
-	responsiveWidth: 0,
+	responsiveWidth: 800,
 	responsiveHeight: 0,
 	responsiveSlides: false,
 	parallax: false,
