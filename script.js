@@ -1,6 +1,6 @@
 new fullpage('#fullpage', {
 	//options here
-	autoScrolling:false,
+	autoScrolling:true,
 	scrollHorizontally: false,
 	navigation:true,
 	loopTop: false,
@@ -26,7 +26,7 @@ new fullpage('#fullpage', {
 		const tl = new TimelineMax({delay:0.8});
 		if(destination.index>0){
 
-			tl.fromTo(title,0.6,{y:"50",opacity:0},{y:"0",opacity:1})
+			tl.fromTo(title,0.8,{y:"50",opacity:0},{y:"0",opacity:1})
 
 		}
 		
